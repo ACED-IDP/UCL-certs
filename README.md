@@ -4,6 +4,8 @@ Add UCL Certs to linux / python environment
 ## Export cert chain from browser
 ![image](https://github.com/ACED-IDP/UCL-certs/assets/47808/24cc3c01-fc86-4c03-aa35-c04a147b088e)
 
+> Note: Make sure you select the `idp-dev.cs.ucl.ac.uk` host in the Certificate Hierarchy and `Export` as Base64 certificate chain
+
 This will create ~/Downloads/idp-dev.cs.ucl.ac.uk.cer, there should be 3 certificates in that file.
 
 ```
