@@ -38,5 +38,8 @@ python works!
 
 ```
 
+## Notes
+
+* The `python` solution relies on setting [REQUESTS_CA_BUNDLE](https://requests.readthedocs.io/en/latest/user/advanced/#ssl-cert-verification).  The attached docker file sets this via docker's [ENV](https://docs.docker.com/engine/reference/builder/#env).  Similar steps should be taken in k8s/helm.
 
 
